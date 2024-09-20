@@ -1,1 +1,4 @@
 .ipynb_checkpoints/
+mlflow/*
+!mlflow/mlflow_config.toml
+!mlflow/start_mlflow_server.sh

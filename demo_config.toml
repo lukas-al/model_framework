@@ -1,0 +1,14 @@
+'experiment_name' = 'LUKAS_TEST_1'
+'model_name' = 'TEST1'
+'model_author' = 'Lukas Alemu'
+'model_owner' = 'Lukas Alemu'
+'model_description' = """Lukas testing model"""
+
+[tags]
+'Division' = 'lorem'
+'Forecast' = 'ipsum'
+
+[model_parameters]
+'param1' = 1
+'param2' = 2
+'param3' = true

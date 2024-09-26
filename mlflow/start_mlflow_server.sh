@@ -1,5 +1,6 @@
 # Set config
 # TARGET_DIR='/Users/lukasalemu/Documents/00. Bank of England/01. Future FAME/model_framework/mlflow'
+# TARGET_DIR='N:/CECD/10. Personal/Lukas Alemu/Future FAME/01. Future Forecast/ml_framework/mlflow/'
 TARGET_DIR="./"
 SERVE_ARTIFACTS=True
 

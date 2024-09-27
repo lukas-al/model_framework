@@ -13,6 +13,6 @@ mlflow server \
   --registry-store-uri $TARGET_DIR \
   --default-artifact-root $TARGET_DIR \
   --host 0.0.0.0 \
-  --port 8888
+  --port 6969
 
 wait

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DummyBKKModel"
+version = "0.0.1"
+authors = [
+  { name="Lukas Alemu", email="lukas.alemu@bankofengland.co.uk" },
+]
+description = "Dummy model which executes through octave and Dynare. Uses the Dynare bkk.mod example."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

@@ -1,4 +1,10 @@
 .ipynb_checkpoints/
+
 mlflow/*
 !mlflow/mlflow_config.toml
 !mlflow/start_mlflow_server.sh
+
+model_package/src/DummyBKKModel/bkk_model/*
+!model_package/src/DummyBKKModel/bkk_model/bkk.mod
+
+*.pyc

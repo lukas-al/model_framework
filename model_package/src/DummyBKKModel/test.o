@@ -1,0 +1,4 @@
+addpath /opt/homebrew/Cellar/dynare/6.2/lib/dynare/matlab
+
+cd bkk_model
+dynare bkk.mod console

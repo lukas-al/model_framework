@@ -42,9 +42,14 @@ class DynareBKK(BasicModel):
         )
 
         results = self.format_results(results)
+
+        with open("bkk_model/bkk/Output/BKK_results.mat", "r") as f:
+            result_mat = f.read()
+            
+        
         results["results_"] = {
             "Val1": str(
-                        open("bkk_model/bkk/Output/BKK_results.mat", "r")
+                        result_mat
                     )
         }
         
@@ -54,13 +59,15 @@ class DynareBKK(BasicModel):
 
     def format_results(self, res):
         """Format results as returned by Dynare"""
-        return {
+        # Currently some silly placeholder since I don't want to deal with IPC for Dynare model outputs
+        formatted_data = {
             "M_": {"Val1": "Lorem Ipsum"},
             "options_": {"Val1": "Lorem Ipsum"},
             "oo_": {"Val1": "Lorem Ipsum"},
             "dataset_": {"Val1": "Lorem Ipsum"},
             "oo_recursive_": {"Val1": "Lorem Ipsum"},
         }
+        return formatted_data
 
     def _fit(self):
         return NotImplementedError
